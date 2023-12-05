@@ -1,0 +1,16 @@
+.div-mail{
+    position: absolute !important;
+    /* height: 25%; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+body{
+    background-color: rgba(0, 89, 255, 0.397);
+    /* background-color:  !important; */
+}
+@media (max-width:600px) {
+    .w-25{
+        width: 80vw !important;
+    }
+}

@@ -1,0 +1,11 @@
+.overall{
+    margin-left: 17%;
+    margin-top: 30px;
+    width: 83%;
+}
+  @media (max-width:1023px) {
+    .overall{
+        width: 100%;
+        margin-left: 0px;
+    }
+  }

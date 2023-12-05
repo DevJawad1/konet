@@ -1,0 +1,92 @@
+.top-nav{
+    position: fixed;
+    height: 50px;
+    width: 82%;
+    top: 0px;
+    z-index: 5;
+    gap: 10vw;
+    /* border-bottom: 1px solid navy; */
+    /* background-color: navy !important; */
+    /* color: white; */
+}
+.round{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    /* float: right; */
+}
+.pop{
+    position: absolute;
+    width: 20vw;
+    top: 40px !important;
+    left: 75%;
+    border: 1px solid;
+    background-color: transparent;
+    animation: pop 100ms linear 1 forwards;
+    border-radius: 5px;
+}
+.userreg{
+    position: absolute;
+    width: 11vw;
+    height: 70vh;
+    top: 50px;
+    left: 87%;
+    animation: userreg 320ms linear 1 forwards;
+}
+.userreg div{
+    margin-top: 10px;
+    height:100px;
+    padding: 5px;
+    padding-top: 20px;
+    /* display: none; */
+    animation: userregcont 1s linear 1 forwards;
+}
+.userreg img{
+    width: 45px;
+    border-radius: 50%;
+}
+@keyframes pop {
+    100%{
+        background-color: rgb(66, 65, 65);
+        height: 150px;
+        top: 50px !important;
+    }
+}
+@keyframes userreg {
+    100%{
+        height: 92vh;
+        background-color: rgb(66, 65, 65);
+    }
+}
+
+@media (max-width:1025px) {
+    .top-nav{
+        width: 100%;
+        z-index: 9 !important;
+    }
+    .showName{
+        margin-left: 60px;
+    }
+    .pop{
+        width: 45vw;
+        left: 52%;
+        top: 45px;
+        border: none;
+        animation: pop 100ms linear 1 forwards;
+        height: 150px;
+    }
+    .userreg{
+        width: 45vw;
+        left: 53%;
+        top: 55px;
+        height: 35vh;
+    }
+    @keyframes userreg {
+        100%{
+            height: 73vh;
+            background-color: rgb(66, 65, 65);
+            top: 50px;
+        }
+    }
+}

@@ -1,0 +1,184 @@
+.inp-1{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.178);
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 0px;
+  }
+  .form-container{
+    width: 60%;
+  }
+  .logo-div{
+    position: relative !important;
+    width:65%;
+    height:50%;
+    border-radius:50%;
+    background: rgba(0, 89, 255, 0.397)
+  }
+  .side-div{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    background: rgba(0, 89, 255, 0.397)
+  }
+  .inp-div{
+    width: 65%;
+  }
+  .contact-div{
+    width: 45%;
+  }
+  .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+  }
+  .circle:hover{
+    color: blue;
+    margin-top: -20px;
+  }
+  .last-div{
+    background-color: rgba(0, 89, 255, 0.397);
+    height: 60px;
+    position: relative;
+    top: 12px;
+  }
+  .loading-div{
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0px !important;
+    /* top: 30%; */
+    /* left: 45%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+  .loading-div .circle{
+    width: 15px;
+    height: 15px;
+    background-color: navy !important;
+    /* background-color: rgba(0, 89, 255, 0.699); */
+  }
+  .loading-div .d-flex{
+    width: 6vw;
+    justify-content: space-between;
+    margin-top: 13px;
+    /* border: 1px solid; */
+  }
+  .lodtop{
+    position: relative;
+    top: -20px ;
+  }
+  .l{
+    margin-left: 10px;
+
+  }
+  .lodbottom{
+    position: relative;
+    top: 20px ;
+  }
+  .loading-div .rotate{
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    padding-top: 8px;
+    /* margin-top: -50px; */
+    animation: rotate 250s linear infinite forwards;
+  }
+  .cirlelod{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: white;
+  }
+  @keyframes rotate {
+    100%{
+      transform: rotate(50000deg);
+    }
+  }
+  @media (max-width:768px) {
+    body{
+      background-color: white !important;
+    }
+    .container{
+      width: 100vw !important;
+      display: block !important;
+      box-shadow: none !important;
+      border: none !important;
+      margin: auto;
+      margin-top: 0px !important;
+    }
+    .contact-div{
+      width: auto;
+      padding: 0% !important;
+    }
+    .about{
+      margin-top: 20px;
+    }
+    .logo2{
+      visibility: hidden;
+    }
+    .side-div{
+      display: block;
+      width: 100%;
+      height: 50vh;
+      padding: 5px;
+      padding-top: 10vh;
+    }
+    .logo-div{
+    display: none;
+    }
+    .inp-div{
+      width: 95%;
+      position: relative;
+      background-color: white;
+      margin: auto;
+      margin-top: -25vh ;
+      box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    .label{
+      display: none !important;
+    }
+    .d-inp{
+      width: 100% !important;
+    }
+    .loading-div{
+      position: fixed;
+      /* height: 15%; */
+      /* width: 35%; */
+      /* top: 40%; */
+      /* left: 35%; */
+    }
+    .rotate{
+      margin-top: 0px !important;
+      width: 20vw !important;
+      height: 20vw !important;
+    }
+    .loading-div .d-flex{
+      width: 20vw;
+    }
+
+  }
+  @media (max-width:325px) {
+    .loading-div{
+      top: 40%;
+      height: 18%;
+    }
+    .rotate{
+      /* border: 1px solid !important; */
+      width: 23vw !important;
+      height: 23vw !important;
+    }
+    .loading-div .d-flex div{
+      width: 10px ;
+      height: 10px;
+    }
+    .loading-div .d-flex{
+      width: 22vw !important;
+    }
+  }

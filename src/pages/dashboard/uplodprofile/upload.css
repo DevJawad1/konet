@@ -1,0 +1,15 @@
+.profile-holder{
+    width: 12vw;
+    height: 25vh;
+    border-radius: 50%;
+}
+.profile-holder img{
+    width: 80%;
+    margin: auto;
+}
+@media (max-width:600px) {
+    .profile-holder{
+        width: 50vw;
+        height: 22vh;
+    }
+}

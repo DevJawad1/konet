@@ -1,0 +1,10 @@
+video{
+    /* border: 1px solid; */
+    width: 100vw;
+    height: 40vh;
+}
+@media (max-width:768px) {
+    video{
+        height: 50vh;
+    }
+} 

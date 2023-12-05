@@ -1,0 +1,27 @@
+.img-div{
+    height: 40vh;
+}
+.img-icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.first-details{
+    display: flex;
+    gap: 10px;
+}
+.done{
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 89, 255, 0.397);
+    height: 50px;
+}
+ @media (max-width:768px) {
+    .first-details{
+        display: block;
+    }
+    .product-details{
+        margin-top: 70px;
+    }
+ }
